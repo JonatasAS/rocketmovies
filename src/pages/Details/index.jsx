@@ -1,9 +1,10 @@
+import { Button } from '../../components/Button';
 import { Container } from './styles';
 
 export function Details() {
   return (
     <Container>
-      <h1></h1>
+      <Button title="Meu botão" />
     </Container>
   )
 } 
