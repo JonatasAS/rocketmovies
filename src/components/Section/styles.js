@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin: 32px 0;
-  color: ${({ theme }) => theme.COLORS.WHITE};
   font-size: 16px;
   
 
@@ -12,4 +11,7 @@ export const Container = styled.div`
     font-size: 24px;
     font-weight: 400;
   }
+
+ 
+
 `;
