@@ -10,11 +10,12 @@ export function Details() {
       <Header />
       <main>
         <Content>
+
           <ButtonText title="Voltar"></ButtonText>
 
           <Section title="Interestelar">
-            <span>Por Jonatas Amorim</span>
-            <span> 23/05/1997 </span>
+            <strong>Por Jonatas Amorim</strong>
+            <span> 23/05/1997 às 08:00</span>
 
             <div className="mark">
               <Tag title="Ficção Científica"></Tag>
