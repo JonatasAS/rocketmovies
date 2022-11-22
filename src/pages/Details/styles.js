@@ -13,13 +13,27 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     overflow-y: scroll;
-    padding: 64px 0;
+    padding: 40px 0 156px 0;
   }
 
   .mark {
     margin-top: 40px;
   }
 
+`;
+
+export const Content = styled.div`
+  max-width: 1137px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  > p {
+    font-size: 16px;
+    margin-top: 40px;
+    text-align: justify;
+  }
 `;
 
 
