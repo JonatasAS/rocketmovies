@@ -15,11 +15,13 @@ export const Container = styled.header`
   justify-content: space-between;
 
   padding: 0 123px;
+
 `;
 
 export const Profile = styled.div`
   display: flex;
   align-items: center;
+ 
   
   
   > img {
@@ -44,4 +46,16 @@ export const Profile = styled.div`
         color: ${({ theme }) => theme.COLORS.GRAY_400};
     }
   }  
+`;
+
+export const Brand = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > h1 {
+    font-size: 24px;
+    color: ${({ theme }) => theme.COLORS.PINK};
+    padding-right: 64px;
+  }
 `;
