@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const Container = styled.header`
+export const Container = styled.div`
   grid-area: header;
 
   height: 116px;
@@ -15,15 +15,14 @@ export const Container = styled.header`
   justify-content: space-between;
 
   padding: 0 123px;
-
 `;
 
 export const Profile = styled.div`
   display: flex;
   align-items: center;
- 
+  padding-left: 64px;
   
-  
+
   > img {
     width: 64px;
     height: 64px;
@@ -43,9 +42,9 @@ export const Profile = styled.div`
     }
 
     span {
-        color: ${({ theme }) => theme.COLORS.GRAY_400};
+      color: ${({ theme }) => theme.COLORS.GRAY_400};
     }
-  }  
+  }
 `;
 
 export const Brand = styled.div`
@@ -58,4 +57,10 @@ export const Brand = styled.div`
     color: ${({ theme }) => theme.COLORS.PINK};
     padding-right: 64px;
   }
+`;
+
+export const Search = styled.div`
+  width: 630px;
+  display: flex;
+  align-items: center;
 `;

@@ -1,5 +1,5 @@
 import { Input } from "../Input";
-import { Container, Profile, Brand} from "./styles";
+import { Container, Profile, Brand, Search } from "./styles";
 
 export function Header() {
   return (
@@ -7,7 +7,9 @@ export function Header() {
       <Brand>
         <h1>RocketMovie</h1>
       </Brand>
-      <Input title="Pesquisar"/>
+      <Search>
+        <Input placeholder="Pesquisar pelo titulo"/>
+      </Search>
       <Profile>
         <div>
           <strong>Jonatas Amorim</strong>

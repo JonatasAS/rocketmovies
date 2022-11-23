@@ -15,7 +15,7 @@ export function Details() {
 
           <Section title="Interestelar">
             <strong>Por Jonatas Amorim</strong>
-            <span> 23/05/1997 às 08:00</span>
+            <span> 23/11/2022 às 08:00</span>
 
             <div className="mark">
               <Tag title="Ficção Científica"></Tag>
