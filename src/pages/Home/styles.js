@@ -6,20 +6,19 @@ export const Container = styled.div`
 
   display: grid;
   grid-template-rows: 105px, auto;
-  grid-template-areas: 
-  "header"
-  "content";
+  grid-template-areas:
+    "header"
+    "content";
 
   > main {
     grid-area: content;
     padding: 50px 123px;
-    
-    
   }
-  
-  .AddMovie {
+
+  .MyMovie {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
   }
 `;
 
@@ -28,9 +27,12 @@ export const Content = styled.div`
   margin: 0 auto;
 `;
 
-/* export const MyFilms = styled.div`
-  width: 184px;
+export const AddMovie = styled.button`
   display: flex;
-  justify-content: space-between;
-`; */
+  align-items: center;
+  background-color: ${({ theme }) => theme.COLORS.PINK};
+  border: none;
+  border-radius: 8px;
+  padding: 14px 32px;
 
+`;
