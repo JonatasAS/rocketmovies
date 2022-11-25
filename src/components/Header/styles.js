@@ -41,9 +41,12 @@ export const Profile = styled.div`
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
-    span {
+    button {
+      background: none;
+      border: none;
       color: ${({ theme }) => theme.COLORS.GRAY_400};
     }
+
   }
 `;
 

@@ -1,15 +1,22 @@
+import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
-import { Container, Content} from './styles';
+import { FiPlus } from 'react-icons/fi';
+import { Container, Content } from "./styles";
 
 export function Home() {
   return (
     <Container>
       <Header />
+      <main>
+        <div className="AddMovie">
 
-    <h1>Meus filmes</h1>
-      <Content>
+        <h1>Meus filmes</h1>
+        <Button title="Adicionar filmes" />
+          
+        </div>
 
-      </Content>
+        <Content></Content>
+      </main>
     </Container>
-  )
+  );
 }
