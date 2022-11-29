@@ -13,6 +13,7 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     padding: 50px 123px;
+    
   }
 
   .MyMovie {
@@ -25,6 +26,8 @@ export const Container = styled.div`
 export const Content = styled.div`
   max-width: 1137px;
   margin: 0 auto;
+  overflow-y: auto;
+  
 `;
 
 export const AddMovie = styled.button`
