@@ -20,6 +20,12 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    > h1{
+      font-size: 32px;
+      color: ${({ theme }) => theme.COLORS.WHITE};
+      
+    }
   }
 `;
 

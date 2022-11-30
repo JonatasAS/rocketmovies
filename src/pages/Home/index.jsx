@@ -10,7 +10,7 @@ export function Home() {
       <Header />
       <main>
         <div className="MyMovie">
-          <h1>Meus filmes</h1>
+          <h1> Meus filmes </h1>
           <AddMovie>
             <FiPlus />
             Adicionar filme

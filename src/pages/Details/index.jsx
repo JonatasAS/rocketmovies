@@ -3,6 +3,8 @@ import { Section } from "../../components/Section";
 import { Container, Content } from "./styles";
 import { Tag } from "../../components/Tag";
 import { ButtonText } from "../../components/ButtonText";
+import { FiArrowLeft } from "react-icons/fi";
+
 
 export function Details() {
   return (
@@ -11,8 +13,8 @@ export function Details() {
       <main>
         <Content>
 
-          <ButtonText title="Voltar"></ButtonText>
-
+          <ButtonText icon={FiArrowLeft} title="Voltar" />
+   
           <Section title="Interestelar">
             <strong>Por Jonatas Amorim</strong>
             <span> 23/11/2022 às 08:00</span>
