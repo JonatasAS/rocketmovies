@@ -13,7 +13,6 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     padding: 50px 123px;
-    
   }
 
   .MyMovie {

@@ -2,7 +2,7 @@ import { Header } from "../../components/Header";
 import { Note } from "../../components/Note";
 import { Section } from "../../components/Section";
 import { FiPlus } from "react-icons/fi";
-import { Container, Content, AddMovie } from "./styles";
+import { Container, Content, AddMovie } from "./styled";
 
 export function Home() {
   return (

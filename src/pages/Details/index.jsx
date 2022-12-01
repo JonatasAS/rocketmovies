@@ -1,6 +1,6 @@
 import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
-import { Container, Content } from "./styles";
+import { Container, Content } from "./styled";
 import { Tag } from "../../components/Tag";
 import { ButtonText } from "../../components/ButtonText";
 import { FiArrowLeft } from "react-icons/fi";
