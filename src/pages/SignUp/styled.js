@@ -34,8 +34,15 @@ export const Form = styled.form`
   }
 
   > a {
+    display: flex;
+    align-items: center;
     margin-top: 42px;
     color: ${({ theme }) => theme.COLORS.PINK};
+
+    > svg {
+      margin-right: 8px;
+      font-size: 20px;
+    }
   }
 `;
 
