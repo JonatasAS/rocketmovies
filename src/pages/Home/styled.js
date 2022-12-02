@@ -33,6 +33,16 @@ export const Content = styled.div`
   margin: 0 auto;
   overflow-y: auto;
   
+  ::-webkit-scrollbar{
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
+    width: 5px;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: ${({ theme }) => theme.COLORS.PINK};
+    border-radius: 5px;
+  }
 `;
 
 export const AddMovie = styled.button`
