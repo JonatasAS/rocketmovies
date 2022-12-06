@@ -30,18 +30,18 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   max-width: 1137px;
+  height: 716px;
   margin: 0 auto;
   overflow-y: auto;
   
   ::-webkit-scrollbar{
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
-    width: 5px;
-    border-radius: 5px;
+    width: 8px;
   }
   
   ::-webkit-scrollbar-thumb{
     background-color: ${({ theme }) => theme.COLORS.PINK};
-    border-radius: 5px;
+    border-radius: 8px;
   }
 `;
 
