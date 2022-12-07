@@ -20,10 +20,6 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.GRAY_400};
     background: transparent;
     border: 0;
-
-    &:placeholder {
-      color: ${({ theme }) => theme.COLORS.WHITE};
-    }
   }
   
   > svg {
