@@ -5,6 +5,8 @@ import { Input } from "../../components/Input";
 import { ButtonText } from "../../components/ButtonText";
 import { Section } from "../../components/Section";
 import { Textarea } from "../../components/Textarea";
+import { NoteItem } from "../../components/NoteItem";
+import { Button } from "../../components/Button";
 
 export function New() {
   return (
@@ -26,6 +28,13 @@ export function New() {
           </Section>
 
           <Textarea placeholder="Observações"/>
+
+          <Section title="Marcadores">
+            <div className="tags">
+              <NoteItem value="Ação" />
+              <NoteItem isNew placeholder="Novo marcador" />
+            </div>
+          </Section>
           
         </Form>
       </main>
