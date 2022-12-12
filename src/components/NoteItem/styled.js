@@ -29,7 +29,7 @@ export const Container = styled.div`
 
   > input {
     height: 56px;
-    width: 180px;
+    width: ${({ isNew }) => isNew ? `180px` : `113px`};
 
     padding: 16px;
 

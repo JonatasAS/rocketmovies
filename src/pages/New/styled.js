@@ -17,7 +17,7 @@ export const Container = styled.div`
 
   .tags {
     width: 1113px;
-    height: 88px; 
+    height: 56px; 
 
     display: flex;
     flex-wrap: wrap;
@@ -26,12 +26,37 @@ export const Container = styled.div`
 
     border-radius: 8px;
   }
+
+  .buttonFinished {
+    display: flex;
+    gap: 40px;
+
+    > button:first-child {
+      background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1100};
+      color: ${({ theme }) => theme.COLORS.PINK};
+    }
+  }
 `;
 
 export const Form = styled.form`
   max-width: 1137px;
   height: 783px;
   margin: 40px auto 85px;
+  overflow-y: auto;
+
+  ::-webkit-scrollbar{
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
+    width: 24px;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: ${({ theme }) => theme.COLORS.PINK};
+    border-radius: 8px;
+    height: 96px;
+    wight: 8px;
+
+  }
 
   > header {
     margin-bottom: 40px;

@@ -27,7 +27,7 @@ export function New() {
             </div>
           </Section>
 
-          <Textarea placeholder="Observações"/>
+          <Textarea placeholder="Observações" />
 
           <Section title="Marcadores">
             <div className="tags">
@@ -35,7 +35,11 @@ export function New() {
               <NoteItem isNew placeholder="Novo marcador" />
             </div>
           </Section>
-          
+
+          <div className="buttonFinished">
+            <Button title="Excluir filme" />
+            <Button title="Salvar alterações" />
+          </div>
         </Form>
       </main>
     </Container>
