@@ -42,8 +42,6 @@ export const Content = styled.div`
   ::-webkit-scrollbar-thumb{
     background-color: ${({ theme }) => theme.COLORS.PINK};
     border-radius: 8px;
-    width: 8px;
-    height: 96px;
   }
 `;
 

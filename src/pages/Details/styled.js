@@ -12,22 +12,36 @@ export const Container = styled.div`
 
   > main {
     grid-area: content;
-    overflow-y: scroll;
     padding: 40px 0 156px 0;
-  }
 
   .mark {
     margin-top: 40px;
   }
-
+  }
 `;
 
 export const Content = styled.div`
   max-width: 1137px;
+  height: 581px;
   margin: 0 auto;
+  overflow-y: auto;
 
   display: flex;
   flex-direction: column;
+
+  ::-webkit-scrollbar{
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: ${({ theme }) => theme.COLORS.PINK};
+    border-radius: 8px;
+  }
+
+  ::-webkit-scrollbar-track{
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
+  }
 
   > button:first-child {
     align-self: start;

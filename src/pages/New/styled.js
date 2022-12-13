@@ -13,10 +13,14 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     overflow-y: auto;
+
+    ::-webkit-scrollbar{
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_1000};;
+    }
   }
 
   .tags {
-    width: 1113px;
+    width: auto;
     height: 56px; 
 
     display: flex;
@@ -45,17 +49,17 @@ export const Form = styled.form`
   overflow-y: auto;
 
   ::-webkit-scrollbar{
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
-    width: 24px;
-    
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
+    width: 8px;
   }
   
   ::-webkit-scrollbar-thumb{
     background-color: ${({ theme }) => theme.COLORS.PINK};
     border-radius: 8px;
-    height: 96px;
-    wight: 8px;
+  }
 
+  ::-webkit-scrollbar-track{
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
   }
 
   > header {
