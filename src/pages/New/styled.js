@@ -16,6 +16,16 @@ export const Container = styled.div`
 
     ::-webkit-scrollbar{
     background: ${({ theme }) => theme.COLORS.BACKGROUND_1000};;
+    width: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb{
+      background-color: ${({ theme }) => theme.COLORS.PINK};
+      border-radius: 8px;
+    }
+  
+    ::-webkit-scrollbar-track{
+      background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
     }
   }
 
@@ -46,22 +56,7 @@ export const Form = styled.form`
   max-width: 1137px;
   height: 783px;
   margin: 40px auto 85px;
-  overflow-y: auto;
-
-  ::-webkit-scrollbar{
-    background: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
-    width: 8px;
-  }
   
-  ::-webkit-scrollbar-thumb{
-    background-color: ${({ theme }) => theme.COLORS.PINK};
-    border-radius: 8px;
-  }
-
-  ::-webkit-scrollbar-track{
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
-  }
-
   > header {
     margin-bottom: 40px;
     > h1 {

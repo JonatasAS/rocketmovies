@@ -13,6 +13,17 @@ export const Container = styled.div`
   > main {
     grid-area: content;
     padding: 50px 123px;
+    overflow-y: auto;
+
+    ::-webkit-scrollbar{
+      background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb{
+      background-color: ${({ theme }) => theme.COLORS.PINK};
+      border-radius: 8px;
+    }
   }
 
   .MyMovie {
@@ -32,17 +43,7 @@ export const Content = styled.div`
   max-width: 1137px;
   height: 716px;
   margin: 0 auto;
-  overflow-y: auto;
-  
-  ::-webkit-scrollbar{
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
-    width: 8px;
-  }
-  
-  ::-webkit-scrollbar-thumb{
-    background-color: ${({ theme }) => theme.COLORS.PINK};
-    border-radius: 8px;
-  }
+
 `;
 
 export const AddMovie = styled.button`
