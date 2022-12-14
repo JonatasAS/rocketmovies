@@ -13,9 +13,9 @@ export function Details() {
       <main>
         <Content>
 
-          <ButtonText icon={FiArrowLeft} title="Voltar" />
+          <ButtonText to="/" icon={FiArrowLeft} title="Voltar" />
    
-          <Section title="Interestelar">
+          <Section title="Interestelar" >
             <strong>Por Jonatas Amorim</strong>
             <span> 23/11/2022 às 08:00</span>
 

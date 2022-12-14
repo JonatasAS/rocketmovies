@@ -3,6 +3,7 @@ import { Note } from "../../components/Note";
 import { Section } from "../../components/Section";
 import { FiPlus } from "react-icons/fi";
 import { Container, Content, AddMovie } from "./styled";
+import { Link } from 'react-router-dom';
 
 export function Home() {
   return (
@@ -11,7 +12,7 @@ export function Home() {
       <main>
         <div className="MyMovie">
           <h1> Meus filmes </h1>
-          <AddMovie>
+          <AddMovie to="/new">
             <FiPlus />
             Adicionar filme
           </AddMovie>

@@ -3,12 +3,15 @@ import { FiArrowLeft, FiUser, FiMail, FiLock, FiCamera } from "react-icons/fi";
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import { ButtonText } from "../../components/ButtonText";
+import { Link } from "react-router-dom";
 
 export function Profile() {
   return (
     <Container>
       <header>
-        <ButtonText icon={FiArrowLeft} title="Voltar" />
+        
+        <ButtonText to="/" icon={FiArrowLeft} title="Voltar" />
+        
       </header>
 
       <Form>
@@ -29,7 +32,7 @@ export function Profile() {
 
         <Input placeholder="Nova senha" type="password" icon={FiLock} />
 
-        <Button title="Salvar" />
+        <Button to="/" title="Salvar" />
       </Form>
     </Container>
   );

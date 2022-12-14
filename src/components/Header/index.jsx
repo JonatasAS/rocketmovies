@@ -10,12 +10,12 @@ export function Header() {
       <Search>
         <Input placeholder="Pesquisar pelo titulo"/>
       </Search>
-      <Profile>
+      <Profile to="/profile">
         <div>
           <strong>Jonatas Amorim</strong>
           <button> sair </button>
         </div>
-        <img src="https://github.com/JonatasAS.png" alt="Foto do usuário" />
+        <img to="/profile" src="https://github.com/JonatasAS.png" alt="Foto do usuário" />
       </Profile>
     </Container>
   );

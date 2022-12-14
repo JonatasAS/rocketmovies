@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   width: 100%;
@@ -46,10 +47,11 @@ export const Content = styled.div`
 
 `;
 
-export const AddMovie = styled.button`
+export const AddMovie = styled(Link)`
   display: flex;
   align-items: center;
   background-color: ${({ theme }) => theme.COLORS.PINK};
+  color: ${({ theme }) => theme.COLORS.BACKGROUND_1000};
   border: none;
   border-radius: 8px;
   padding: 14px 32px;

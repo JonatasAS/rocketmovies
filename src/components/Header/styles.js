@@ -17,12 +17,11 @@ export const Container = styled.div`
   padding: 0 123px;
 `;
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
   display: flex;
   align-items: center;
   padding-left: 64px;
   
-
   > img {
     width: 64px;
     height: 64px;
