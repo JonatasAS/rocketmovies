@@ -1,6 +1,6 @@
 # Rocketmovie
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/JonatasAS/dsmovie/blob/main/LICENSE) 
+
 
 ## About the project
 Rocketmovie is an initially front-end user interface application developed with a focus on Reacj.js, intended for user use to record movies or other 
